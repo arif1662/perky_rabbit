@@ -1,0 +1,17 @@
+
+
+
+Schema::create('galleries', function (Blueprint $table) {
+            $table->increments('id');
+            $table->string('name');
+            $table->string('position');
+            $table->text('imageOne');
+            $table->text('imageTwo');
+            $table->text('imageThree');
+            $table->text('imageFour');
+            $table->text('imageFive');
+            $table->text('imageSix');
+            $table->tinyInteger('publicationStatus');
+            $table->timestamps();
+			
+			
